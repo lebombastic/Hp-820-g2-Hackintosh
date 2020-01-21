@@ -1,0 +1,79 @@
+32:889  5:300  Found UEFI Acpi 2.0 RSDP at A7FFE014
+32:889  0:000  Saving ACPI tables from RSDP A7FFE014 to EFI\CLOVER\ACPI\origin ...
+32:889  0:000   A7FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+32:907  0:018    (Xsdt: A7FFD0E8, Rsdt: A7FFD074)
+32:907  0:000    A7FFD0E8: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 172 -> XSDT.aml
+32:930  0:022    A7FFD074: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104 -> RSDT.aml
+32:949  0:018    Tables in Xsdt: 17
+32:949  0:000    0. A7FFB000: 'FACP', '225A', Rev: 5, Len: 268 -> FACP.aml
+32:968  0:019        (Dsdt: A7FCF000, Facs: A7F66000, XDsdt: A7FCF000, XFacs: 0)
+32:968  0:000        A7FCF000: 'DSDT', '225A', Rev: 2, Len: 156957 -> DSDT.aml
+33:015  0:047        A7F66000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+33:035  0:019    1. A7FFA000: 'HPET', '225A', Rev: 1, Len: 56 -> HPET.aml
+33:055  0:019    2. A7FF9000: 'APIC', '225A', Rev: 1, Len: 188 -> APIC.aml
+33:075  0:020    3. A7FF8000: 'MCFG', '225A', Rev: 1, Len: 60 -> MCFG.aml
+33:095  0:019    4. A7FF6000: 'TCPA', '225A', Rev: 2, Len: 50 -> TCPA.aml
+33:115  0:019    5. A7FCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729 -> SSDT-0-SataAhci.aml
+33:135  0:020    6. A7FCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162 -> SSDT-1-PtidDevc.aml
+33:155  0:019    7. A7FCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374 -> SLIC.aml
+33:175  0:020    8. A7FC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> MSDM.aml
+33:199  0:024    9. A7FC8000: 'FPDT', '225A', Rev: 1, Len: 68 -> FPDT.aml
+33:218  0:018    10. A7FC7000: 'BGRT', '225A', Rev: 0, Len: 56 -> BGRT.aml
+33:237  0:019    11. A7FC3000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1348 -> SSDT-2-Cpu0Ist.aml
+33:256  0:018    12. A7FC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2959 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 4 pcs)
+33:276  0:019        * A46FEA98: '', 'ÿÿ', Rev: 45, Len: 0  08 05 00 00 00 00 00 00 2D 9A 45 FF 02 16 05 FF 
+33:276  0:000        * A7DEB698: 'SSDT', 'ApIst', Rev: 2, Len: 1499  53 53 44 54 DB 05 00 00 02 82 50 6D 52 65 66 00 Internal length = 1499 -> SSDT-x3_0-ApIst.aml
+33:295  0:019        * A7DEA918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1011  53 53 44 54 F3 03 00 00 02 0F 50 6D 52 65 66 00 Internal length = 1011 -> SSDT-x3_1-Cpu0Cst.aml
+33:315  0:020        * A7DE9D98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+33:337  0:021  
+33:337  0:000    13. A7FC1000: 'SSDT', 'LakeTiny', Rev: 2, Len: 469 -> SSDT-4-LakeTiny.aml
+33:356  0:019    14. A7FC0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 2348 -> SSDT-5-SaSsdt.aml
+33:387  0:031    15. A7FF7000: 'ASF!', '225A', Rev: 32, Len: 165 -> ASF!.aml
+33:406  0:019    16. A7FBF000: 'DMAR', 'BDW', Rev: 1, Len: 176 -> DMAR.aml
+33:425  0:018    Tables in Rsdt: 17
+33:425  0:000    0. A7FFB000: 'FACP', '225A', Rev: 5, Len: 268
+33:425  0:000        (Dsdt: A7FCF000, Facs: A7F66000, XDsdt: A7FCF000, XFacs: 0)
+33:425  0:000        A7FCF000: 'DSDT', '225A', Rev: 2, Len: 156957
+33:429  0:003        A7F66000: 'FACS', Ver: 1, Len: 64
+33:429  0:000    1. A7FFA000: 'HPET', '225A', Rev: 1, Len: 56
+33:429  0:000    2. A7FF9000: 'APIC', '225A', Rev: 1, Len: 188
+33:429  0:000    3. A7FF8000: 'MCFG', '225A', Rev: 1, Len: 60
+33:429  0:000    4. A7FF6000: 'TCPA', '225A', Rev: 2, Len: 50
+33:429  0:000    5. A7FCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729
+33:429  0:000    6. A7FCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+33:429  0:000    7. A7FCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+33:429  0:000    8. A7FC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+33:429  0:000    9. A7FC8000: 'FPDT', '225A', Rev: 1, Len: 68
+33:429  0:000    10. A7FC7000: 'BGRT', '225A', Rev: 0, Len: 56
+33:429  0:000    11. A7FC3000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1348
+33:429  0:000    12. A7FC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2959
+33:429  0:000    13. A7FC1000: 'SSDT', 'LakeTiny', Rev: 2, Len: 469
+33:429  0:000    14. A7FC0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 2348
+33:429  0:000    15. A7FF7000: 'ASF!', '225A', Rev: 32, Len: 165
+33:429  0:000    16. A7FBF000: 'DMAR', 'BDW', Rev: 1, Len: 176
+33:429  0:000  Found UEFI Acpi 1.0 RSDP at A7FFE000
+33:429  0:000  Printing ACPI tables from RSDP A7FFE000 ...
+33:429  0:000   A7FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+33:429  0:000    (Rsdt: A7FFD000)
+33:429  0:000    A7FFD000: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+33:429  0:000    Tables in Rsdt: 17
+33:429  0:000    0. A7FFB000: 'FACP', '225A', Rev: 5, Len: 268
+33:429  0:000        (Dsdt: A7FCF000, Facs: A7F66000, XDsdt: A7FCF000, XFacs: 0)
+33:429  0:000        A7FCF000: 'DSDT', '225A', Rev: 2, Len: 156957
+33:432  0:003        A7F66000: 'FACS', Ver: 1, Len: 64
+33:432  0:000    1. A7FFA000: 'HPET', '225A', Rev: 1, Len: 56
+33:432  0:000    2. A7FF9000: 'APIC', '225A', Rev: 1, Len: 188
+33:432  0:000    3. A7FF8000: 'MCFG', '225A', Rev: 1, Len: 60
+33:432  0:000    4. A7FF6000: 'TCPA', '225A', Rev: 2, Len: 50
+33:432  0:000    5. A7FCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729
+33:432  0:000    6. A7FCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+33:432  0:000    7. A7FCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+33:432  0:000    8. A7FC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+33:432  0:000    9. A7FC8000: 'FPDT', '225A', Rev: 1, Len: 68
+33:432  0:000    10. A7FC7000: 'BGRT', '225A', Rev: 0, Len: 56
+33:432  0:000    11. A7FC3000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1348
+33:432  0:000    12. A7FC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2959
+33:432  0:000    13. A7FC1000: 'SSDT', 'LakeTiny', Rev: 2, Len: 469
+33:432  0:000    14. A7FC0000: 'SSDT', 'SaSsdt', Rev: 2, Len: 2348
+33:432  0:000    15. A7FF7000: 'ASF!', '225A', Rev: 32, Len: 165
+33:432  0:000    16. A7FBF000: 'DMAR', 'BDW', Rev: 1, Len: 176
